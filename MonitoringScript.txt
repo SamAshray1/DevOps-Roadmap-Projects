@@ -1,0 +1,2 @@
+iostat -c | awk 'NR==4 {print "CPU Usage Metrics\nCPU Util:\t" 100-$6 "%\nIdle:\t\t" $6"%\n"}'
+vmstat -a | awk 'NR==3 {print "Memory Usage Metrics\nFree Mem:\t" $4 "\nActive Mem:\t" $6 }'
