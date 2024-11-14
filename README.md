@@ -6,3 +6,5 @@ The tool should compress the logs, and store them in a new directory: https://ro
 
 write a simple tool to analyze logs from the command line: https://roadmap.sh/projects/nginx-log-analyser
 - Can use Regex to find IPs, and use bash scripting maybe
+
+You will write a simple GitHub Actions workflow to deploy a static website to GitHub Pages: https://roadmap.sh/projects/github-actions-deployment-workflow
